@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+   android:background="@drawable/background_image">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent">
+
+                <Button
+                    android:id="@+id/Sign_in"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="209dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="08dp"
+                    android:layout_marginStart="212dp"
+                    android:background="@drawable/round_border"
+                    android:drawableLeft="@drawable/ic_baseline_email_24"
+                    android:drawablePadding="16dp"
+                    android:drawableStart="@drawable/ic_baseline_email_24"
+                    android:ems="10"
+                    android:hint="@string/Sign_In"
+                    android:inputType="textPersonName"
+                    android:onClick="Activity_profile"
+                    android:padding="10dp"
+                    android:text="@string/Sign_In" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="100dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="115dp"
+                        android:layout_marginBottom="20dp"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <Button
+                                    android:id="@+id/bharatilipi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"
+                                    android:onClick="Activity_bhartiScript">
+
+                                </Button>
+
+                                <ImageView
+                                    android:id="@+id/bharatilipiLogo"
+                                    android:layout_width="60dp"
+                                    android:layout_height="50dp"
+                                    android:layout_centerInParent="true"
+                                    android:contentDescription="@string/todo"
+                                    android:src="@drawable/bharati_script_logo">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:id="@+id/BharatilipiT"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="60dp"
+
+                                    android:text="@string/BharatiScript"
+                                    android:textColor="@color/ActivityText1"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <Button
+                                    android:id="@+id/quiz"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"
+                                    android:onClick="Activity_quiz">
+
+                                </Button>
+
+                                <ImageView
+                                    android:id="@+id/quiz_logo"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_centerInParent="true"
+                                    android:contentDescription="@string/todo"
+                                    android:src="@drawable/bharati_script_quiz_logo">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:id="@+id/quizT"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="50dp"
+                                    android:layout_marginStart="50dp"
+                                    android:text="@string/BharatiScriptQuiz"
+                                    android:textColor="@color/ActivityText2"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="115dp"
+                        android:layout_marginBottom="20dp"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <Button
+                                    android:id="@+id/Mudra_Bharati"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"
+                                    android:onClick="Activity_certificate">
+
+                                </Button>
+
+                                <ImageView
+                                    android:id="@+id/Mudra_Bharati_logo"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_centerInParent="true"
+                                    android:contentDescription="@string/todo"
+                                    android:src="@drawable/mudra_bharati">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:id="@+id/Mudra_BharatiT"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="60dp"
+                                    android:text="@string/Mudra_Bharati"
+                                    android:textColor="@color/ActivityText3"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <Button
+                                    android:id="@+id/translateI"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="@string/todo"
+                                    android:onClick="Activity_translate">
+
+                                </Button>
+
+                                <ImageView
+                                    android:id="@+id/translate_logo"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_centerInParent="true"
+                                    android:contentDescription="@string/todo"
+                                    android:src="@drawable/bharati_script_tranlate">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:id="@+id/translateT"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="50dp"
+                                    android:text="@string/BharatiTranslate"
+                                    android:textColor="@color/ActivityText4"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="115dp"
+                        android:layout_marginBottom="20dp"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <Button
+                                    android:id="@+id/translateB"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"
+                                    android:onClick="Activity_translateB">
+
+                                </Button>
+
+                                <ImageView
+                                    android:id="@+id/translateT_logo"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_centerInParent="true"
+                                    android:contentDescription="@string/todo"
+                                    android:src="@drawable/bharati_translate">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:id="@+id/translateTT"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="50dp"
+
+                                    android:text="@string/Artwork_"
+                                    android:textColor="@color/ActivityText5"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <Button
+                                    android:id="@+id/About_us"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="@string/todo"
+                                    android:onClick="Activity_contact">
+
+                                </Button>
+
+                                <ImageView
+                                    android:id="@+id/about_us_logo"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_centerInParent="true"
+                                    android:contentDescription="@string/todo"
+                                    android:src="@drawable/bharati_script_about_us">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:id="@+id/about_usT"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="50dp"
+                                    android:text="@string/BharatiAboutUs"
+                                    android:textColor="@color/ActivityText6"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

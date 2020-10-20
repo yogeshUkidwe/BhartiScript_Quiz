@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "415446607165",
+    "firebase_url": "https://bhartiscriptquiz.firebaseio.com",
+    "project_id": "bhartiscriptquiz",
+    "storage_bucket": "bhartiscriptquiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415446607165:android:dad8e75b7d840b79221154",
+        "android_client_info": {
+          "package_name": "com.example.bhartiscript_quiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415446607165-8iabmk35jkkbrobgkd1pbd20k4snj44u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bhartiscript_quiz",
+            "certificate_hash": "235f42bb8e263c187f2933bdf6c7ea562f148ca0"
+          }
+        },
+        {
+          "client_id": "415446607165-4iq4erraesm307lmv8k9dqu98rcjdk2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABmvJbmFGo3zRpd-H7d6XENP2UloDYV74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "415446607165-4iq4erraesm307lmv8k9dqu98rcjdk2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bhartiscript_quiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ocr_data"
+            android:label="@string/bharatiscript_ocr"
+            android:parentActivityName=".Activity_translate"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".sponsers"
+            android:label="@string/sponsers"
+            android:parentActivityName=".Activity_contact"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".research"
+            android:label="@string/research"
+            android:parentActivityName=".Activity_contact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".media"
+            android:label="@string/media"
+            android:parentActivityName=".Activity_contact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".team"
+            android:label="@string/Team"
+            android:parentActivityName=".Activity_contact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity_artwork"
+            android:label="@string/Artwork_"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity_mudra_bharati"
+            android:label="@string/Mudra_Bharati"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".study_languages"
+            android:label="@string/BharatiScript"
+            android:parentActivityName=".Activity_bhartiScript"
+            android:screenOrientation="portrait" />
+        <activity android:name=".signIn_certificates" />
+        <activity
+            android:name=".appreciation"
+            android:label="@string/Thank_you"
+            android:parentActivityName=".Level_selection"
+            android:screenOrientation="portrait" />
+        <activity android:name=".certificates" />
+        <activity
+            android:name=".quiz_activity"
+            android:label="@string/BharatiScriptQuiz"
+            android:parentActivityName=".Level_selection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Level_selection"
+            android:label="@string/BharatiScriptQuiz"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user_profile"
+            android:label="@string/BharatiProfile"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity_profile"
+            android:label="@string/Sign_In"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity_contact"
+            android:label="@string/BharatiAboutUs"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity_translate"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity_quiz"
+            android:label="@string/BharatiScriptQuiz"
+            android:parentActivityName=".Level_selection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity_bhartiScript"
+            android:label="@string/BharatiScript"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.bhartiscript_quiz.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version" />
+            <meta-data
+                android:name="com.google.android.gms.vision.DEPENDENCIES"
+                android:value="ocr" />
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

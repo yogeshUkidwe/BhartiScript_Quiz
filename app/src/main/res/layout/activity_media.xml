@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".media"
+    android:background="@drawable/background_image">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/art_sample_descri"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="24sp"
+                android:textColor="@color/ActivityText4"
+                android:text="@string/media"/>
+
+            <ImageView
+                android:id="@+id/article1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                app:srcCompat="@drawable/article1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:onClick="link_article1"
+                android:autoLink="all"
+                android:textSize="18dp"
+                android:text="लेख लिंक 01"
+                android:textColor="@color/colorAccent">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/article2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                app:srcCompat="@drawable/article2" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:clickable="true"
+                android:onClick="link_article2"
+                android:autoLink="all"
+                android:textSize="18dp"
+                android:text="लेख लिंक 02"
+                android:layout_gravity="center">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/article3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/article3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"
+                android:clickable="true"
+                android:onClick="link_article3"
+                android:autoLink="all"
+                android:textSize="18dp"
+                android:text="लेख लिंक 03"
+                android:layout_gravity="center">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/article4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                app:srcCompat="@drawable/article4" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"
+                android:clickable="true"
+                android:onClick="link_article4"
+                android:autoLink="all"
+                android:textSize="18dp"
+                android:text="लेख लिंक 04"
+                android:layout_gravity="center">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/article5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/article5" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"
+                android:clickable="true"
+                android:onClick="link_article5"
+                android:autoLink="all"
+                android:textSize="18dp"
+                android:text="लेख लिंक 05"
+                android:layout_gravity="center">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/article6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/article6" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"
+                android:clickable="true"
+                android:onClick="link_article6"
+                android:autoLink="all"
+                android:textSize="18dp"
+                android:text="लेख लिंक 06"
+                android:layout_gravity="center">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/article7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/article7" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"
+                android:clickable="true"
+                android:onClick="link_article7"
+                android:autoLink="all"
+                android:textSize="18dp"
+                android:text="लेख लिंक 07"
+                android:layout_gravity="center">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/article8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/article8" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:clickable="true"
+                android:onClick="link_article8"
+                android:autoLink="all"
+                android:textSize="18dp"
+                android:text="लेख लिंक 08"
+                android:layout_gravity="center">
+
+            </TextView>
+            <ImageView
+                android:id="@+id/article9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/article9" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"
+                android:clickable="true"
+                android:onClick="link_article9"
+                android:autoLink="all"
+                android:textSize="18dp"
+                android:text="लेख लिंक 09"
+                android:layout_gravity="center">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/article10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/article10" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"
+                android:clickable="true"
+                android:onClick="link_article10"
+                android:autoLink="all"
+                android:textSize="18dp"
+                android:text="लेख लिंक 10"
+                android:layout_gravity="center">
+
+            </TextView>
+            <ImageView
+                android:id="@+id/article11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/article11" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"
+                android:clickable="true"
+                android:onClick="link_article11"
+                android:autoLink="all"
+                android:textSize="18dp"
+                android:text="लेख लिंक 11"
+                android:layout_gravity="center">
+
+            </TextView>
+            <ImageView
+                android:id="@+id/article12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/article12" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="link_article12"
+                android:gravity="center"
+                android:autoLink="all"
+                android:textSize="18dp"
+                android:textColor="@color/colorAccent"
+                android:text="लेख लिंक 12"
+                android:layout_gravity="center">
+
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

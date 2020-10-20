@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Level_selection"
+    android:background="@drawable/background_image"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="100dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="115dp"
+                        android:layout_marginBottom="20dp"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <Button
+                                    android:id="@+id/Level1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"
+                                    android:onClick="start_activity_level1">
+
+                                </Button>
+
+                                <ImageView
+                                    android:id="@+id/Level1Logo"
+                                    android:layout_width="60dp"
+                                    android:layout_height="50dp"
+                                    android:layout_centerInParent="true"
+                                    android:contentDescription="@string/todo"
+                                    android:src="@drawable/level1">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:id="@+id/Level1T"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="60dp"
+                                    android:layout_marginStart="70dp"
+                                    android:text="@string/level1"
+                                    android:textColor="@color/ActivityText4"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <Button
+                                    android:id="@+id/Level2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"
+                                    android:onClick="start_activity_level2"
+                                    >
+
+                                </Button>
+
+                                <ImageView
+                                    android:id="@+id/Level2_logo"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_centerInParent="true"
+                                    android:contentDescription="@string/todo"
+                                    android:src="@drawable/level2">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:id="@+id/Level2T"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="50dp"
+                                    android:layout_marginStart="70dp"
+                                    android:text="@string/level2"
+                                    android:textColor="@color/ActivityText4"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="115dp"
+                        android:layout_marginBottom="20dp"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <Button
+                                    android:id="@+id/Level3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"
+                                    android:onClick="start_activity_level3"
+                                    >
+
+                                </Button>
+
+                                <ImageView
+                                    android:id="@+id/Level3_logo"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_centerInParent="true"
+                                    android:contentDescription="@string/todo"
+                                    android:src="@drawable/level3">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:id="@+id/Level3T"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="50dp"
+                                    android:layout_marginStart="70dp"
+                                    android:text="@string/level3"
+                                    android:textColor="@color/ActivityText4"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <Button
+                                    android:id="@+id/Level4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="@string/todo"
+                                    android:onClick="start_activity_level4"
+                                    >
+
+                                </Button>
+
+                                <ImageView
+                                    android:id="@+id/Level4_logo"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_centerInParent="true"
+                                    android:contentDescription="@string/todo"
+                                    android:src="@drawable/level4">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:id="@+id/Level4T"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginStart="70dp"
+                                    android:text="@string/level4"
+                                    android:textColor="@color/ActivityText4"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="115dp"
+                        android:layout_marginBottom="20dp"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <Button
+                                    android:id="@+id/Level5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"
+                                    android:onClick="start_activity_level5"
+                                    >
+
+                                </Button>
+
+                                <ImageView
+                                    android:id="@+id/Level5_logo"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_centerInParent="true"
+                                    android:contentDescription="@string/todo"
+                                    android:src="@drawable/level5">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:id="@+id/Level5T"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="50dp"
+                                    android:layout_marginStart="70dp"
+                                    android:text="@string/level5"
+                                    android:textColor="@color/ActivityText4"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <Button
+                                    android:id="@+id/Level6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="@string/todo"
+                                    android:onClick="start_activity_level6">
+
+                                </Button>
+
+                                <ImageView
+                                    android:id="@+id/Level6_logo"
+                                    android:layout_width="55dp"
+                                    android:layout_height="53dp"
+                                    android:layout_centerInParent="true"
+                                    android:contentDescription="@string/todo"
+                                    android:src="@drawable/level6">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="50dp"
+                                    android:layout_marginStart="70dp"
+                                    android:text="@string/level6"
+                                    android:textColor="@color/ActivityText4"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

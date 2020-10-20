@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#101010</color>
+    <color name="colorPrimaryDark">#E3A591</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="ActivityText1">#D18E5D</color>
+    <color name="ActivityText2">#125008</color>
+    <color name="ActivityText3">#C2C541</color>
+    <color name="ActivityText4">#000000</color>
+    <color name="ActivityText5">#D68A60</color>
+    <color name="ActivityText6">#7E7D7D</color>
+    <color name="profile_themeColor">#E95324</color>
+    <color name="White">#FFFFFF</color>
+
+</resources>

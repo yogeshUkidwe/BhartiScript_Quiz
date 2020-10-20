@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">भारतीलिपि प्रश्नमंजुषा</string>
+    <string name="BharatiScript">भारतीलिपि</string>
+    <string name="BharatiScriptQuiz">प्रश्नोत्तर परीक्षा</string>
+    <string name="Mudra_Bharati">मुद्रा भारती </string>
+    <string name="BharatiTranslate"> भाषा भारतीलिपि में परिवर्तित</string>
+    <string name="Artwork_"> कलाकृति</string>
+    <string name="BharatiAboutUs">संपर्क के लिये </string>
+    <string name="BharatiProfile">प्रोफ़ाइल </string>
+    <string name="Sign_In">साइन इन </string>
+    <string name="google_Sign_In"> गूगल साइन इन </string>
+    <string name="Guidline">सूचना </string>
+    <string name="GuidlineDescription1">•	दिये गये भारती स्क्रिप्ट प्रश्न के लिये सही विकल्प चुनिये</string>
+    <string name="GuidlineDescription2"> •	हर प्रश्न के लिये २० सेकंद का समय होगा </string>
+    <string name="GuidlineDescription3"> •	हर पढाव के बाद प्रमाणपत्र आपके ईमेल आयडीपे भेजा जायेगा </string>
+    <string name="GuidlineDescription4"> •	ज्ञान के नयी उपलब्धि के लिये शुभकामना और अभिवादन </string>
+    <string name="Thank_you"> धन्यवाद </string>
+    <string name="Appreciation"> भारती लिपि सीखने में रुचि दिखाने के लिए धन्यवाद !,  आगे सीखने के बाद आप फिर से कोशिश कर सकते हैं और भागीदारी का प्रमाण पत्र दें </string>
+    <string name="Congats"> भारतीलिपि की प्रश्नोत्तरी के पूरा होने पर बधाई </string>
+    <string name="Activity1_text">\t \t \t डॉ श्रीनिवास चक्रवर्ती के नेतृत्व वाली मद्रास में भारतीय प्रौद्योगिकी संस्थान (IIT) की एक टीम द्वारा विकसित भारतीय भाषाओं के लिए एक वैकल्पिक स्क्रिप्ट है। स्क्रिप्ट में देवनागरी, बंगाली, गुरुमुखी, गुजराती, उड़िया, तेलुगु, कन्नड़, मलयालम और तमिल शामिल हैं। भारती अक्षर तीन ऊर्ध्वाधर परतों से बने होते हैं। अक्षर के आधार पर व्यंजन केंद्र में रखा गया है और सुधारक ऊपरी और निचली परतों पर हैं।</string>
+    <string name="try_again"> पुनः प्रयास करे </string>
+    <string name="quiz_start"> प्रारंभ </string>
+    <string name="mail_id">ईमेल आईडी </string>
+    <string name="cert_name">प्रमाण पत्र के लिए नाम </string>
+    <string name="cert_button">प्रमाण पत्र प्राप्त करें </string>
+    <string name="or">अथवा </string>
+    <string name="share">शेयर </string>
+    <string name="study_material">अध्ययन सामग्री के लिए भाषा चुनें  </string>
+    <string name="mudra_study_material">अध्ययन सामग्री  </string>
+    <string name="Art_sample">कला का नमूना </string>
+    <string name="about_us_medium">• इस माध्यम से हमसे संपर्क करें </string>
+
+    <string name="level1"> स्तर 1 </string>
+    <string name="Activity3_text"> \t \t \t साइन लैंग्वेज बहरे और गूंगे समाज में संचार का एक संभावित साधन है। जैसा कि उचित संज्ञा को एक शॉट में सटीक रूप से इशारे नहीं किया जा सकता है, नामों और स्थानों को बाहर करने के लिए उंगली-वर्तनी को अपनाया जाता है। भारतीय लिपियों में समृद्ध शब्दावली और विविधता के कारण, भारतीय भाषाओं में उंगली की वर्तनी के लिए अमेरिकी सांकेतिक भाषा सम्मेलन का उपयोग करना बोझिल है। इसलिए, हम भारतीय लिपियों में उंगली की वर्तनी प्रणाली के लिए एक उपन्यास सम्मेलन का प्रस्ताव करते हैं, मुदा भारती, जिसका शब्दकोश अक्षर के स्वर के आधार पर बनाया गया है - 16 स्वर और 40 व्यंजन। एएसएल के विपरीत, जो सिर्फ एक हाथ का उपयोग करता है, मुद्रा भारती दो हाथ- एक व्यंजन के लिए और दूसरा स्वर और सम्यक् अक्षर के लिए स्वर और व्यंजन को सम्मिलित करते हुए इशारे करता है। \n \t \t \t देवनागरी और तमिल लिपियों में चरित्र लौटाने वाली मुद्रा भारती के लिए डिटेक्शन सिस्टम का एक प्रोटोटाइप सेल्फ-ऑर्गनाइजिंग मैप्स और कन्वर्सेशनल न्यूरल नेटवर्क्स का उपयोग करके विकसित किया गया है।</string>
+    <string name="Activity5_text">  \t \t \t यहाँ भारती आधारित कलाकृतियों का एक नमूना संग्रह है! यदि आप अपना योगदान देना चाहते हैं, तो अपने नाम के साथ admin@bharatiscript.com या bharatiscript@gmail.com पर अपनी कलाकृतियाँ भेजें। </string>
+    <string name="level2"> स्तर 2 </string>
+    <string name="level3"> स्तर 3 </string>
+    <string name="level4"> स्तर 4 </string>
+    <string name="level5"> स्तर 5 </string>
+    <string name="level6"> स्तर 6 </string>
+    <string name="score"> गुण : 00 </string>
+
+    <string name="Website">वेबसाइट </string>
+    <string name="Other_medium">• अन्य माध्यम</string>
+    <string name="About_bharati_script">• भारती लिपि के बारे में</string>
+    <string name="QuestionNumber"> प्रश्न 1/x </string>
+    <string name="Question">  </string>
+    <string name="option1"> विकल्प 1</string>
+    <string name="option2"> विकल्प 2</string>
+    <string name="option3"> विकल्प 3</string>
+    <string name="option4"> विकल्प 4</string>
+    <string name="confirm"> पुष्टि करें</string>
+    <string name="passing_marks"> उत्तीर्ण प्रतिशत: 60 %</string>
+
+    <string name="start_level1">आरंभ </string>
+    <string name="Timer"> 00:20</string>
+    <string name="todo" />
+    <string name="text">user_name</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="lang1">देवनागरी</string>
+    <string name="lang2">बंगाली</string>
+    <string name="lang3">गुजराती</string>
+    <string name="lang4">कन्नड़</string>
+    <string name="lang5">तेलुगु</string>
+    <string name="lang6">मलयालम</string>
+    <string name="lang7">तमिल</string>
+    <string name="lang8">गुरुमुखी</string>
+    <string name="lang9">ओडिया</string>
+    <string name="Online_data">ऑनलाइन जानकारी</string>
+    <string name="linkdin">लिंक्डइन</string>
+    <string name="Bharati_primers">भारती प्राइमर्स</string>
+    <string name="bharati_books">भारती पुस्तकें</string>
+    <string name="textview">उपयोगकर्ता नाम</string>
+    <string name="translate_button">अनुवाद</string>
+    <string name="youtube">यूट्यूब</string>
+    <string name="google_play">प्ले स्टोर</string>
+    <string name="Amazon_">अमेज़न</string>
+    <string name="Team">" टीम"</string>
+    <string name="media">" मीडिया"</string>
+    <string name="research">अनुसंधान</string>
+    <string name="sponsers">" प्रायोजकों</string>
+    <string name="Team_Head">• टीम के प्रमुख</string>
+    <string name="current_players">• वर्तमान सदस्यों</string>
+    <string name="former_players">• भूतपूर्व सदस्यों</string>
+    <string name="research_documents1">• M. Naik and V. S. Chakravarthy, "A comparative study of complexity of handwritten Bharati characters with that of major Indian scripts," 2017 International Joint Conference on Neural Networks (IJCNN), Anchorage, AK, 2017, pp. 3050-3057. doi: 10.1109/IJCNN.2017.7966235 </string>
+    <string name="research_documents2">• V. Chandra Sekhar, V. Srinivasa Chakravarthy, Viswanath Pulabaigari, "An efficient Multi Lingual Optical Character Recognition system for Indian languages through use of Bharati Script," 4th workshop on document analysis and recognition (DAR-2018), 11th Indian Conference on Computer Vision, Graphics and Image Processing (ICVGIP 2018) December 18 - 22, Hyderabad, India</string>
+    <string name="research_documents3">• Chandra Sekhar. V, Srinivasa Chakravarthy, Viswanath P, "Indian Language Optical Character Recognition Through Bharati Script based Deep Convolutional Neural Networks," Language and Vision workshop, CVPR, June 16-20, California, USA</string>
+    <string-array name="languages">languages
+        <item>देवनागरी</item>
+        <item>बंगाली</item>
+        <item>गुजराती</item>
+        <item>कन्नड़</item>
+        <item>तेलुगु</item>
+        <item>मलयालम</item>
+        <item>तमिल</item>
+        <item>गुरुमुखी</item>
+        <item>ओडिया</item>
+    </string-array>
+    <string name="bharatiscript_ocr">भारतीस्क्रिप्ट ओसीआर</string>
+
+
+
+</resources>

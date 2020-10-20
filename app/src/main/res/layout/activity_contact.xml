@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_contact">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/bharati_logo"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                app:srcCompat="@drawable/quiz_logo" />
+
+            <TextView
+                android:id="@+id/Contact_us_via"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+
+                android:layout_marginRight="10dp"
+                android:text="@string/about_us_medium"
+                android:textColor="@color/ActivityText4"
+                android:textSize="24sp"/>
+
+            <Button
+                android:id="@+id/Website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/about_us1"
+                android:drawablePadding="16dp"
+                android:drawableStart="@drawable/about_us1"
+                android:ems="10"
+                android:padding="8dp"
+                android:onClick="about_us1"
+                android:textColor="@color/White"
+                android:background="@drawable/half_button"
+                android:layout_marginLeft="180dp"
+                android:text="@string/Website" />
+            <Button
+                android:id="@+id/Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/quiz_logo"
+                android:drawablePadding="16dp"
+                android:drawableStart="@drawable/ic_baseline_email_24"
+                android:ems="10"
+                android:padding="8dp"
+                android:onClick="about_us2"
+                android:textColor="@color/White"
+                android:background="@drawable/half_button"
+                android:layout_marginLeft="180dp"
+                android:text="@string/mail_id" />
+            <Button
+                android:id="@+id/linkdin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/about_us3"
+                android:drawablePadding="16dp"
+                android:drawableStart="@drawable/about_us3"
+                android:ems="10"
+                android:padding="8dp"
+                android:onClick="about_us3"
+                android:textColor="@color/White"
+                android:background="@drawable/half_button"
+                android:layout_marginLeft="180dp"
+                android:text="@string/linkdin" />
+            <Button
+                android:id="@+id/youtube"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/about_us4"
+                android:drawablePadding="16dp"
+                android:drawableStart="@drawable/about_us4"
+                android:ems="10"
+                android:onClick="about_us4"
+                android:padding="8dp"
+                android:textColor="@color/White"
+                android:background="@drawable/half_button"
+                android:layout_marginLeft="180dp"
+                android:text="@string/youtube" />
+            <TextView
+                android:id="@+id/other_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="50dp"
+
+                android:layout_marginRight="10dp"
+                android:text="@string/Other_medium"
+                android:textColor="@color/ActivityText4"
+                android:textSize="24sp"/>
+
+            <Button
+                android:id="@+id/google_play"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/about_us5"
+                android:drawablePadding="16dp"
+                android:onClick="about_us5"
+                android:drawableStart="@drawable/about_us5"
+                android:ems="10"
+                android:padding="8dp"
+                android:background="@drawable/half_button_white"
+                android:layout_marginLeft="180dp"
+                android:textColor="#0A0C9A"
+                android:text="@string/google_play" />
+            <Button
+                android:id="@+id/Amazon_"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/about_us6"
+                android:drawablePadding="16dp"
+                android:drawableStart="@drawable/about_us6"
+                android:onClick="about_us6"
+                android:ems="10"
+                android:padding="8dp"
+                android:textColor="#0A0C9A"
+                android:background="@drawable/half_button_white"
+                android:layout_marginLeft="180dp"
+                android:text="@string/Amazon_" />
+            <TextView
+                android:id="@+id/About_us_work"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="50dp"
+
+                android:layout_marginRight="10dp"
+                android:text="@string/About_bharati_script"
+                android:textColor="@color/ActivityText4"
+                android:textSize="24sp"/>
+
+            <Button
+                android:id="@+id/Team"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/about_us7"
+                android:onClick="about_us7"
+                android:drawablePadding="16dp"
+                android:drawableStart="@drawable/about_us7"
+                android:ems="10"
+                android:padding="8dp"
+                android:textColor="@color/White"
+                android:background="@drawable/half_button_green"
+                android:layout_marginLeft="180dp"
+                android:text="@string/Team" />
+            <Button
+                android:id="@+id/media"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/about_us8"
+                android:drawablePadding="16dp"
+                android:drawableStart="@drawable/about_us8"
+                android:onClick="about_us8"
+                android:ems="10"
+                android:padding="8dp"
+                android:textColor="@color/White"
+                android:background="@drawable/half_button_green"
+                android:layout_marginLeft="180dp"
+                android:text="@string/media" />
+            <Button
+                android:id="@+id/research"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/about_us9"
+                android:drawablePadding="16dp"
+                android:drawableStart="@drawable/about_us9"
+                android:ems="10"
+                android:padding="8dp"
+                android:textColor="@color/White"
+                android:onClick="about_us9"
+                android:background="@drawable/half_button_green"
+                android:layout_marginLeft="180dp"
+                android:text="@string/research" />
+            <Button
+                android:id="@+id/sponsers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/about_us10"
+                android:drawablePadding="16dp"
+                android:drawableStart="@drawable/about_us10"
+                android:ems="10"
+                android:onClick="about_us10"
+                android:padding="8dp"
+                android:textColor="@color/White"
+                android:background="@drawable/half_button_green"
+                android:layout_marginLeft="180dp"
+                android:text="@string/sponsers" />
+            <TextView
+                android:id="@+id/dev_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                android:text="• Developed by Yogesh Ukidwe (Ref. BharatiScript.com)"
+                android:textColor="@color/ActivityText4"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/dev_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:onClick="developer_mail"
+                android:text="click here for Contact"
+                android:textColor="@color/profile_themeColor"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

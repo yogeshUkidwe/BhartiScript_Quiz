@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_profile"
+    android:background="@drawable/background_image">
+
+    <Button
+        android:id="@+id/user_profile_logout"
+        android:layout_width="157dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/round_bg"
+        android:drawablePadding="16dp"
+        android:padding="16dp"
+
+        android:text="@string/logout"
+        app:drawableLeftCompat="@drawable/user_profile_logout"
+        app:drawableStartCompat="@drawable/user_profile_logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_profile_mail" />
+
+    <TextView
+        android:id="@+id/user_profile_use"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="156dp"
+        android:drawablePadding="16dp"
+        android:text="@string/textview"
+        app:drawableLeftCompat="@drawable/user_profile_us"
+        app:drawableStartCompat="@drawable/user_profile_us"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/user_profile_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:drawablePadding="16dp"
+        android:text="@string/textview"
+        app:drawableLeftCompat="@drawable/ic_baseline_email_24"
+        app:drawableStartCompat="@drawable/ic_baseline_email_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_profile_use" />
+
+    <Button
+        android:id="@+id/back_main_activity"
+        android:layout_width="329dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/round_bg"
+        android:drawablePadding="16dp"
+        android:onClick="back_main"
+        android:padding="16dp"
+        android:text="मुख्य पृष्ठ पर वापस "
+        app:drawableLeftCompat="@drawable/user_profile_logout"
+        app:drawableStartCompat="@drawable/user_profile_logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_profile_logout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

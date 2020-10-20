@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".team"
+    android:background="@drawable/background_image">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Team_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Team_Head"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/TH1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- प्रो. श्रीनिवास चक्रवर्ती  "
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+             />
+        <TextView
+            android:id="@+id/present_members"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/current_players"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/PM1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- अजित कुमार नटराजन  "
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:id="@+id/PM2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- चन्द्रशेखर  "
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:id="@+id/PM3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- विक्रम कुमार  "
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+             />
+        <TextView
+            android:id="@+id/PM4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- अमल अश्विन  "
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:id="@+id/PM5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- श्रुति बोनाला  "
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+             />
+
+        <TextView
+            android:id="@+id/current_members"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/former_players"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/CM1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- बालामुरली  "
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+             />
+        <TextView
+            android:id="@+id/CM2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- कृष्ण भारद्वाज  "
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:id="@+id/CM3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- माली सुंदरासन  "
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+             />
+        <TextView
+            android:id="@+id/CM4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- श्रीनाथ बालकृष्णन  "
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+            />
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
